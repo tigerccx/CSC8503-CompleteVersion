@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CollisionDetection">
+      <UniqueIdentifier>{7c45a941-5f3a-4dc9-b113-df0c37be8dd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{9aee0dfe-4d09-49bb-903b-0c7f2a8a6134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{ed419283-b2e2-421f-a417-ff0c62260d42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pathfinding">
+      <UniqueIdentifier>{84f869c2-c73b-4eb0-ace4-ff4d685ef4ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorldHierarchy">
+      <UniqueIdentifier>{f57779c9-4c63-45eb-ace4-b5ae2920b7cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\StateMachine">
+      <UniqueIdentifier>{f26c502c-5377-481e-b77b-725eb0c4b1c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\PushdownMachine">
+      <UniqueIdentifier>{8e29d315-aa5f-4754-872c-e9d78d90c2ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\BehaviourTree">
+      <UniqueIdentifier>{d82f4de3-14c8-4b8b-9069-f6b3a8eb9f07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool">
+      <UniqueIdentifier>{bd723709-04a6-49d2-9f6a-9da261796d11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Constraints">
+      <UniqueIdentifier>{3fa51fbe-4ff4-4fe9-8973-519e9a7c01ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{f59fd440-191d-45c5-a675-08757adcfb39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{2323cf4d-7d9c-4efb-881c-cc3e1c894c82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameWorld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDetection.h">
+      <Filter>CollisionDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsObject.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>CollisionDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Constraint.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsSystem.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereVolume.h">
+      <Filter>CollisionDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="OBBVolume.h">
+      <Filter>CollisionDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="AABBVolume.h">
+      <Filter>CollisionDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionVolume.h">
+      <Filter>CollisionDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="NavigationPath.h">
+      <Filter>Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="NavigationGrid.h">
+      <Filter>Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="NavigationMesh.h">
+      <Filter>Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="NavigationMap.h">
+      <Filter>Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTree.h">
+      <Filter>CollisionDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="CapsuleVolume.h">
+      <Filter>CollisionDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="OcTree.h">
+      <Filter>CollisionDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StateTransition.h">
+      <Filter>AI\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>AI\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>AI\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="PushdownState.h">
+      <Filter>AI\PushdownMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="PushdownMachine.h">
+      <Filter>AI\PushdownMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="BehaviourNode.h">
+      <Filter>AI\BehaviourTree</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerMask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RotationConstraint.h">
+      <Filter>Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionConstraint.h">
+      <Filter>Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionConstraint1.h">
+      <Filter>Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearMovementConstraint.h">
+      <Filter>Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldHierarchy.h">
+      <Filter>WorldHierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionDetection.cpp">
+      <Filter>CollisionDetection</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsObject.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsSystem.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="NavigationGrid.cpp">
+      <Filter>Pathfinding</Filter>
+    </ClCompile>
+    <ClCompile Include="NavigationMesh.cpp">
+      <Filter>Pathfinding</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTree.cpp">
+      <Filter>CollisionDetection</Filter>
+    </ClCompile>
+    <ClCompile Include="OBBVolume.cpp">
+      <Filter>CollisionDetection</Filter>
+    </ClCompile>
+    <ClCompile Include="OcTree.cpp">
+      <Filter>CollisionDetection</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>AI\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>AI\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="StateTransition.cpp">
+      <Filter>AI\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="PushdownMachine.cpp">
+      <Filter>AI\PushdownMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="PushdownState.cpp">
+      <Filter>AI\PushdownMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="BehaviourNode.cpp">
+      <Filter>AI\BehaviourTree</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerMask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PositionConstraint.cpp">
+      <Filter>Physics\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="PositionConstraint1.cpp">
+      <Filter>Physics\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="RotationConstraint.cpp">
+      <Filter>Physics\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearMovementConstraint.cpp">
+      <Filter>Physics\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldHierarchy.cpp">
+      <Filter>WorldHierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

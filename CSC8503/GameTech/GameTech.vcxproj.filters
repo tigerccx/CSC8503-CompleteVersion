@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MenuPushDown">
+      <UniqueIdentifier>{5443d649-57f8-4629-9737-9c9652578551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{1f94b4e4-8e6a-4916-8ec9-10366fe404ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneImporter">
+      <UniqueIdentifier>{98b54907-dc3c-4178-8560-536dde8840e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Worlds">
+      <UniqueIdentifier>{4bce02ef-5c59-41d0-8161-51a5b9abf540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{6df86423-18b9-46b2-a441-7bd4e5a0e143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{fae97e72-0f9b-4b60-b92d-ecbc4c6d08d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Elements">
+      <UniqueIdentifier>{382c6c30-7add-494f-960f-e83ddcca0a05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Canvas">
+      <UniqueIdentifier>{0e54b997-2ac1-4eb2-8216-91ea9c51c8d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\MenuWorld">
+      <UniqueIdentifier>{86db416a-2c35-4e5e-bca3-b396d32c2177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Asset">
+      <UniqueIdentifier>{870ce267-7986-4a28-8142-9a67eb2bac6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\UI">
+      <UniqueIdentifier>{62df454c-ee5d-407a-be42-7697a767da06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Camera">
+      <UniqueIdentifier>{91768901-c2ef-4ecf-8fbc-e6002b99bfcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\WorldA">
+      <UniqueIdentifier>{50815f7b-a36c-453d-9ec6-29517a86ab0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\WorldASuccess">
+      <UniqueIdentifier>{203f2953-b200-4200-ba8e-11465a5574f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{0fe984dd-4594-4e3a-a49d-1c0125eecef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\WorldB">
+      <UniqueIdentifier>{ce842445-6d48-405a-bed2-eaacca5ebfc0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TutorialGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneCreator.cpp">
+      <Filter>SceneImporter</Filter>
+    </ClCompile>
+    <ClCompile Include="AIMoveAround.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoPusher.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ControllableCharacter.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="KillingPlane.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ManualPusher.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="RotatablePlatform.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWorld_A.cpp">
+      <Filter>Worlds</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTechRenderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="UIElementDebugWord.cpp">
+      <Filter>UI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="UICanvasMainMenu.cpp">
+      <Filter>UI\Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWorld_B.cpp">
+      <Filter>Worlds</Filter>
+    </ClCompile>
+    <ClCompile Include="UIRendererDebugWord.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTechAssetManager.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreRecorder.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWorld_Menu.cpp">
+      <Filter>Worlds</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuController.cpp">
+      <Filter>Components\MenuWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="UICanvas_A.cpp">
+      <Filter>UI\Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraController.cpp">
+      <Filter>Components\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraController1.cpp">
+      <Filter>Components\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformDisplayer.cpp">
+      <Filter>Components\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraTransformDisplayer.cpp">
+      <Filter>Components\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldAController.cpp">
+      <Filter>Components\WorldA</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWorld_Success.cpp">
+      <Filter>Worlds</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraViewSelector.cpp">
+      <Filter>Components\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldASuccessController.cpp">
+      <Filter>Components\WorldASuccess</Filter>
+    </ClCompile>
+    <ClCompile Include="UICanvas_A_Success.cpp">
+      <Filter>UI\Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="PartASuccess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UICanvas_B.cpp">
+      <Filter>UI\Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="NavigationController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraControllerFollow.cpp">
+      <Filter>Components\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyFollow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldBController.cpp">
+      <Filter>Components\WorldB</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TutorialGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneCreator.h">
+      <Filter>SceneImporter</Filter>
+    </ClInclude>
+    <ClInclude Include="IImportable.h">
+      <Filter>SceneImporter</Filter>
+    </ClInclude>
+    <ClInclude Include="AIMoveAround.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoPusher.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllableCharacter.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="KillingPlane.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MainBall.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ManualPusher.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="RotatablePlatform.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorld_A.h">
+      <Filter>Worlds</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTechRenderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="UIElementDebugWord.h">
+      <Filter>UI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="UICanvasMainMenu.h">
+      <Filter>UI\Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorld_B.h">
+      <Filter>Worlds</Filter>
+    </ClInclude>
+    <ClInclude Include="UIRendererDebugWord.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTechAssetManager.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreRecorder.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorld_Menu.h">
+      <Filter>Worlds</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuController.h">
+      <Filter>Components\MenuWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="UICanvas_A.h">
+      <Filter>UI\Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraController.h">
+      <Filter>Components\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraController1.h">
+      <Filter>Components\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformDisplayer.h">
+      <Filter>Components\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraTransformDisplayer.h">
+      <Filter>Components\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldAController.h">
+      <Filter>Components\WorldA</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorld_Success.h">
+      <Filter>Worlds</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraViewSelector.h">
+      <Filter>Components\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldASuccessController.h">
+      <Filter>Components\WorldASuccess</Filter>
+    </ClInclude>
+    <ClInclude Include="UICanvas_A_Success.h">
+      <Filter>UI\Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="PartASuccess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedMacros.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="UICanvas_B.h">
+      <Filter>UI\Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="NavigationController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraControllerFollow.h">
+      <Filter>Components\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyFollow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldBController.h">
+      <Filter>Components\WorldB</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
