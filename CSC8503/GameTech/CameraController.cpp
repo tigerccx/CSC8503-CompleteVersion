@@ -35,10 +35,10 @@ void CameraController::Update(float dt)
 			camera->position -= Matrix4::Rotation(camera->yaw, Vector3(0, 1, 0)) * Vector3(-1, 0, 0) * frameSpeed;
 		}
 
-		if (Window::GetKeyboard()->KeyDown(KeyboardKeys::SHIFT)) {
+		if (Window::GetKeyboard()->KeyDown(KeyboardKeys::Q)) {
 			camera->position.y += frameSpeed;
 		}
-		if (Window::GetKeyboard()->KeyDown(KeyboardKeys::SPACE)) {
+		if (Window::GetKeyboard()->KeyDown(KeyboardKeys::E)) {
 			camera->position.y -= frameSpeed;
 		}
 	}
