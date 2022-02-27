@@ -1,1 +1,2 @@
 D:\Sources\Files\CW\CSC8503\8503 Release\CSC8503\GameTech\Debug\GameTech.vcxproj.CopyComplete
+D:\Sources\Files\CW\CSC8503 CompleteVersion\CSC8503-CompleteVersion\CSC8503\GameTech\Debug\GameTech.vcxproj.CopyComplete
